@@ -22,7 +22,6 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        /* Modern Navbar */
         .navbar {
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%) !important;
             box-shadow: var(--shadow);
@@ -63,12 +62,10 @@
             margin-right: 0.5rem;
         }
 
-        /* Main Container */
         .container {
             max-width: 1200px;
         }
 
-        /* Enhanced Alerts */
         .alert {
             border: none;
             border-radius: 12px;
@@ -104,7 +101,6 @@
             margin-right: 0.5rem;
         }
 
-        /* Card Enhancements */
         .card {
             border: none;
             border-radius: 15px;
@@ -127,7 +123,7 @@
             font-size: 1.25rem;
         }
 
-        /* Button Enhancements */
+
         .btn {
             border-radius: 8px;
             padding: 0.5rem 1.5rem;
@@ -168,7 +164,6 @@
             box-shadow: 0 2px 5px rgba(220, 53, 69, 0.3);
         }
 
-        /* Table Enhancements */
         .table {
             background: white;
             border-radius: 12px;
@@ -197,7 +192,6 @@
             transform: scale(1.01);
         }
 
-        /* Form Enhancements */
         .form-control, .form-select {
             border-radius: 8px;
             border: 2px solid #e9ecef;
@@ -216,14 +210,12 @@
             margin-bottom: 0.5rem;
         }
 
-        /* Badge Enhancements */
         .badge {
             padding: 0.5rem 1rem;
             border-radius: 20px;
             font-weight: 500;
         }
 
-        /* Content Wrapper */
         .content-wrapper {
             background: white;
             border-radius: 15px;
@@ -232,7 +224,6 @@
             margin-bottom: 2rem;
         }
 
-        /* Page Header */
         .page-header {
             margin-bottom: 2rem;
             padding-bottom: 1rem;
@@ -250,7 +241,6 @@
             margin: 0;
         }
 
-        /* Responsive adjustments */
         @media (max-width: 768px) {
             .navbar-brand {
                 font-size: 1.2rem;
@@ -266,7 +256,6 @@
             }
         }
 
-        /* Loading Animation */
         .loading {
             display: inline-block;
             animation: spin 1s linear infinite;

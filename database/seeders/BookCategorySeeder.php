@@ -8,9 +8,6 @@ use App\Models\BookCategory;
 
 class BookCategorySeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         $categories = [

@@ -9,9 +9,6 @@ use App\Models\BookCategory;
 
 class BookSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         $categories = BookCategory::all();
